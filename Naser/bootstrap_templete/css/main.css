@@ -1,0 +1,429 @@
+/* ///////////// */
+
+body {
+    margin-top: 44px;
+}
+
+/* Start Navbar */
+
+.navbar .navbar-brand {
+    font-size: 22px
+}
+
+.navbar .navbar-brand span {
+    color: #e41717;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar .nav-link {
+    line-height: 28px;
+    font-size: 14px
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    background: #ff1919;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    background: #13121278;
+}
+
+.navbar .dropdown-menu {
+    margin: 0;
+    background-color: #444;
+    border-top: 2px solid #de3131;
+    border-radius: 0;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #FFF;
+    padding: 0.25rem 0rem 0.25rem 1rem;
+    min-width: 200px;
+    -webkit-transition: padding .5s ease;
+    -moz-transition: padding .5s ease;
+    -o-transition: padding .5s ease;
+    -ms-transition: padding .5s ease;
+    transition: padding .5s ease;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover, .navbar .dropdown-menu .dropdown-item:focus {
+    background-color: #ff1919;
+    padding-left: 1.75rem
+}
+
+.navbar .dropdown-menu .dropdown-divider {
+    border-top: 1px solid #ae2d2d;
+}
+
+.navbar .navbar-toggler {
+    padding: 0.1rem 0.5rem;
+    margin: 8px;
+}
+
+/* End Navbar */
+
+/* Start Slider -carosla- */
+
+.carousel .carousel-caption {
+    bottom: 80px;
+    background: rgba(3, 3, 3, .3)
+}
+
+.carousel .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: #e9ecef;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #ff1919
+}
+
+/* End Slider -carosla- */
+
+/* Start About Us */
+
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h1 {
+    font-weight: bold
+}
+
+.about h1 span {
+    color: #ff1919
+}
+
+.about .lead {
+    margin-top: 15px;
+    color: #888;
+    font-size: 24px
+}
+
+/* End About Us */
+
+/* Start Features */
+
+.features {
+    padding: 50px 0px;
+    background: #eee;
+}
+
+.features h2 {
+    margin-bottom: 50px;
+}
+
+.features .feat {
+    margin-bottom: 20px
+}
+
+.features .feat i {
+    margin-bottom: 20px;
+    font-size: 35px
+}
+
+.features .feat .lead {
+    line-height: 2rem
+}
+
+/* Start Features */
+
+/* Start Testimonials */
+
+.testimonials {
+    padding: 50px 0px;
+}
+
+.testimonials h2 {
+    margin-bottom: 50px;
+}
+
+.testimonials .client-info {
+    background: rgb(52, 58, 64);
+    color: #fff;
+    padding: 20px;
+}
+
+.testimonials .lead {
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+.testimonials img {
+    width: 100px;
+    height: 100px;
+}
+
+/* End Testimonials */
+
+/*  Start Prices Table  */
+
+.prices-table {
+    padding: 50px 0px;
+    background: #eee;
+}
+
+.prices-table h2 {
+    margin-bottom: 50px;
+}
+
+.prices-table .price-box {
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 30px
+}
+
+.prices-table .price-box h4 {
+    margin: 5px 0px 15px;
+}
+
+.prices-table .price-box:hover p {
+    -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+    -o-transform: scale(1.1, 1.1) rotate(360deg);
+    -ms-transform: scale(1.1, 1.1) rotate(360deg);
+    -moz-transform: scale(1.1, 1.1) rotate(360deg);
+    transform: scale(1.1, 1.1) rotate(360deg);
+    border: 2px solid #dfdfdf
+}
+
+.prices-table .price-box p {
+    color: #888;
+    font-size: 30px;
+    font-weight: bold;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    border: 2px solid#fff;
+    border-radius: 50%;
+    background: #f3f3f3;
+    line-height: 90px;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -o-transition: .7s;
+    -ms-transition: .7s;
+    transition: .7s;
+}
+
+.prices-table .price-box ul {
+    line-height: 30px;
+}
+
+.prices-table .price-box .btn {
+    margin-bottom: 10px
+}
+
+/*  End Prices Table  */
+
+/* Start Section Team */
+
+.team {
+    background: url('../img/comp.jpg')fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    color: #eee;
+}
+
+.team .team-overlay {
+    padding: 50px 0px;
+    background: rgba(3, 3, 3, .7);
+}
+
+.team .team-overlay h2 {
+    margin-bottom: 50px
+}
+
+.team .person {
+    margin-bottom: 30px;
+}
+
+.team .person img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px
+}
+
+.team .person .lead {
+    font-size: 1rem
+}
+
+/* End Section Team */
+
+/* Start Section Subscribe */
+
+.subscribe {
+    padding: 50px 0;
+    background: #eee;
+}
+
+.subscribe h2 {
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.subscribe form .form-control-lg,
+.subscribe form .btn-lg {
+    border-radius: unset;
+    margin-bottom: 15px
+}
+
+/* End Section Subscribe */
+/* Start Section Statistic */
+
+.statistic {
+    background: url('../img/60.jpg')fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    color: #b6b5b5;
+}
+
+.statistic .statistic-overlay {
+    padding: 50px 0px;
+    background: rgba(2, 2, 2, .6);
+}
+
+.statistic .statistic-overlay h2 {
+    margin-bottom: 50px
+}
+
+.statistic .stat {
+    margin-bottom: 30px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+.statistic .stat:hover {
+    color: #FFF
+}
+.statistic .stat i {
+    margin-bottom: 15px
+}
+.statistic .stat .h1 {
+    font-size: 4rem
+}
+/* End Section Statistic */
+/* Start Section Our Skills */
+.our-skills {
+    padding: 50px 0px;   
+}
+.our-skills h2 {
+    margin-bottom: 50px ;   
+}
+.our-skills .progress {
+    margin-bottom: 15px;
+    height: 2rem;  
+}
+.our-skills .progress .progress-bar {
+    text-align: left;
+    text-indent: 15px;
+    font-size: 18px;
+    line-height: 2rem
+}
+/* End Section Our Skills */
+/* Start Section  Contact Us */
+.contact-us {
+    background: url('../img/60.jpg')fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    color: #b6b5b5;
+}
+.contact-us .contact-overlay {
+    padding: 50px 0px;
+    background: rgba(2, 2, 2, .6);
+}
+.contact-us form {margin-top: 40px}
+.contact-us form textarea.form-control {
+    height: 114px;
+}
+.contact-us form input,
+.contact-us form textarea,
+.contact-us form .form-control:focus {
+    background: rgba(82, 78, 78, .6);
+    border: none;
+    color: #fff
+}
+/* End Section  Contact Us */
+
+/* Start Footer */
+footer {
+    padding-top: 50px;
+    background: #111;
+    color: #aaa;
+}
+footer h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0895d1
+}
+footer ul {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+footer .map-link li {
+    width: 33.333333%;
+    float: left; 
+    margin-bottom: 30px  
+}
+
+footer .map-link li a{
+    width: 100%;
+    text-decoration: none;   
+}
+footer li a{
+color: #aaa  
+}
+footer  li a:hover{
+    color: #fff 
+}
+footer .social-media li {
+    float: left;
+    margin-right: 10px;
+}
+footer .projects > div {
+    width: 45%;
+    padding: 5px;
+    display: inline-block;
+}
+footer .projects .img-thumbnail {
+    background: rgba(0, 0, 0, .2);
+    border: 1px solid #444
+}
+footer .copyright {
+    font-size: 20px;
+    margin-top: 30px;
+    background: #333;
+    padding: 18px 0;
+    font-weight: 600;
+}
+
+/* End Footer */
+
+
+
+
+

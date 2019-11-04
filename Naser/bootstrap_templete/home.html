@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <style>
+        header {
+            background: gray;
+            width: 100%;
+            height: 200px;
+        }
+
+        nav {
+            background: yellow;
+            width: 100%;
+            height: 50px;
+        }
+
+        section {
+            background: rgb(216, 24, 24);
+            width: 80%;
+            height: 500px;
+            display: inline-block;
+        }
+
+        section article {
+            background: rgb(32, 133, 116);
+            width: 49%;
+            height: 200px;
+            display: inline-block;
+            margin: 5px auto;
+        }
+
+        aside {
+            background: #222;
+            width: 18%;
+            height: 500px;
+            display: inline-block;
+
+        }
+
+        footer {
+            background: #333;
+            width: 100%;
+            height: 100px;
+
+        }
+    </style>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <header>This Is The Header</header>
+    <nav>
+        <select name="naser" id="naser">
+            <option value="0">hhhhh</option>
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+        </select>
+        <script>
+            console.log(document.getElementById('naser').selectedIndex.value);
+            
+        </script>
+    </nav>
+    <section>
+        <article>
+            This is first
+        </article>
+        <article>
+            This is first
+        </article>
+    </section>
+    <aside>This Is The Sidebar</aside>
+    <footer>This Is The Footer</footer>
+
+
+</body>
+
+</html>
